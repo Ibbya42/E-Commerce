@@ -76,3 +76,15 @@ li{
     /* When hovered over the books link the underline will not appear */
     text-decoration: none;
 }
+
+#landing{
+    /* Adds the background colour to the nav bar in the section id */
+    background-color: rgba(115, 66, 214, 0.1);
+}
+
+header{
+    /* Include the header to have the same background as the 
+    nav bar across the whole page
+    Calculating the height of the page - the height of the nav */
+    height: calc(100vh - 80px);
+}
