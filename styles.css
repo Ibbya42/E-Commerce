@@ -7,6 +7,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.purple{
+    color: purple;
+}
+
+
+/* CSS FOR NAVIGATION BAR */
+
 nav{
     height: 80px;
     display: flex;
