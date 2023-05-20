@@ -117,11 +117,21 @@ and button */
     /* Makes the header section 100% of the page/parent */
     height: 100%;
     display: flex;
+    /* Use Flex firection column here to target the items vertically */
     flex-direction: column;
+    /* Will space around the description and image vertically since the 
+    flex-direction column is used */
     justify-content: space-around;
 
 }
 
+.header_description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Text design for H1 and H2 */
 h1{
     text-align: center;
     font-size: 52px;
@@ -133,4 +143,17 @@ h2{
     text-align: center;
     font-size: 28px;
     margin-bottom: 32px;
+}
+
+/* Target the design for the button */
+.btn{
+    color: white;
+    background-color: purple;
+    /* Add Padding between the text and the border
+    12 top/bottom 24 left/right */
+    padding: 12px 24px;
+    font-size: 20px;
+    border-radius: 12px;
+    
+    
 }
