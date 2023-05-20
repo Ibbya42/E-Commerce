@@ -12,32 +12,67 @@ nav{
     display: flex;
 }
 
+/* Target the container which holds the image and the links all together */
 .nav_container{
+    /* Makes page responsive */
     width: 100%;
+    /* Max width of the page is set to 1200px */
     max-width: 1200px;
+    /* Put the image and links side by side */
     display: flex;
+    /* Provides space between links and image */
     justify-content: space-between;
+    /* Align the items to the center */
     align-items: center;
     margin: 0 auto;
+    padding: 0 24px;
 
 }
 
 .logo{
+    /* Set Image width smaller to 200px */
     width: 200px;
 }
 
 ul{
+    /* Brings all the links side by side instead of ontop of each other */
     display: flex ;
     
 }
 
 li{
+    /* Removes bulletpoints */
     list-style-type: none;
 }
 
 .nav__link{
+    /* Space out the links to make them more presentable */
     margin-left: 16px;
+    /* Remove underline from link */
     text-decoration: none;
     font-weight: bold;
+    color: purple;
     font-size: 20px;
+    /* Add padding around the text to space out the link and the border */
+    padding: 8px;
+}
+
+/* Functionality to produce when the link is hover over */
+.nav__link:hover{
+    /* It will create an underline for the link that is hovered over */
+    text-decoration: underline;
+}
+
+/* Target the final link to add more design */
+.nav__link--primary{
+    /* Adds a rectangular border around the books link */
+    border: 2px solid purple;
+    /* Gives the border a smoother finish around the edges */
+    border-radius: 4px;
+
+}
+
+.nav__link--primary:hover{
+    /* When hovered over the books link the underline will not appear */
+    text-decoration: none;
 }
