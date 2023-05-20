@@ -11,8 +11,13 @@
     color: purple;
 }
 
+img{
+    /* All images will be 100% of its parent */
+    width: 100%;
+}
 
 /* CSS FOR NAVIGATION BAR */
+/* ---------------------------- */
 
 nav{
     height: 80px;
@@ -89,9 +94,43 @@ li{
     background-color: rgba(115, 66, 214, 0.1);
 }
 
+/* CSS FOR Header Section */
+/* ---------------------------- */
+
 header{
     /* Include the header to have the same background as the 
     nav bar across the whole page
     Calculating the height of the page - the height of the nav */
     height: calc(100vh - 80px);
+}
+
+/* Target the container of the header which will have the description, images
+and button */
+.header_container{
+    /* Makes header responsive */
+    width: 100%;
+    /* Cap the width of the header to 720px
+    Nav was capped at 1200px */
+    max-width: 720px;
+    /* Used to align the items to the center */
+    margin: 0 auto;
+    /* Makes the header section 100% of the page/parent */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 52px;
+    margin-bottom: 20px;
+    color: purple;
+}
+
+h2{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 32px;
 }
