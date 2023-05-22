@@ -125,6 +125,7 @@ and button */
 
 }
 
+/* Used to center the description, will also center the button as it is the parent */
 .header_description{
     display: flex;
     flex-direction: column;
