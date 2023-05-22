@@ -164,3 +164,39 @@ h2{
     /* Wraps the image's padding by 20px to make it smaller */
     padding: 20px;
 }
+
+
+
+/* Edit this */
+
+.container{
+    padding: 56px 0;
+
+}
+
+.row{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* CSS FOR Header Section */
+/* Highlights */
+/* ---------------------------- */
+
+.highlight_wrapper{
+    display: flex;
+}
+
+.highlight{
+    padding: 0 24px;
+    width: calc(100% /3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight_para{
+    text-align: center;
+}
