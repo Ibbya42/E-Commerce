@@ -167,7 +167,7 @@ h2{
 
 
 
-/* Edit this */
+/* DEFAULT CONTAINER AND ROW CSS for Highlights */
 
 .container{
     padding: 56px 0;
@@ -175,8 +175,11 @@ h2{
 }
 
 .row{
+    /* Set row 100% to make it responsive */
     width: 100%;
+    /* Set max width to 1200px to span the page */
     max-width: 1200px;
+    /* Align the items to the center */
     margin: 0 auto;
 }
 
@@ -185,12 +188,16 @@ h2{
 /* ---------------------------- */
 
 .highlight_wrapper{
+    /* Put the elements side by side - The parent class */
     display: flex;
 }
 
 .highlight{
+    /* Put 24px padding on the left and right of the text */
     padding: 0 24px;
+    /* Divide the width of the elements by 3 */
     width: calc(100% /3);
+    /* Align the items centrally */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -198,5 +205,6 @@ h2{
 }
 
 .highlight_para{
+    /* Align the text under the para class to the center */
     text-align: center;
 }
