@@ -208,3 +208,29 @@ h2{
     /* Align the text under the para class to the center */
     text-align: center;
 }
+
+/* Targets the image */
+.highlight_img{
+    /* Adds a border around the image */
+    border: 2px solid purple;
+    /* Hard coding the height and width of the image border by 100px */
+    height: 100px;
+    width: 100px;
+    /* Set the colour of the image */
+    color: purple;
+    /* Aligning the Image to the center */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Create smooth edges on the border */
+    border-radius: 8px;
+    /* Increase the size of the image */
+    font-size: 28px;
+    /* Add spacing to the bottom between the image and the text */
+    margin-bottom: 24px;
+}
+
+.highlight_subt{
+    font-size: 16px;
+    margin-bottom: 16px;
+}
