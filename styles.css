@@ -195,6 +195,9 @@ h2{
 /* Highlights */
 /* ---------------------------- */
 
+/* CSS to adjust the wave design on the website. 
+Before targets the top of the highlight section 
+and after targets the end of the section */
 #highlights{
     position: relative;
 }
@@ -275,4 +278,13 @@ h2{
 .highlight_subt{
     font-size: 16px;
     margin-bottom: 16px;
+}
+
+/* CSS FOR Header Section */
+/* FEATURES */
+/* ---------------------------- */
+
+#features{
+    background-color:  rgba(115, 66, 214, 0.1);
+    height: 500px;
 }
