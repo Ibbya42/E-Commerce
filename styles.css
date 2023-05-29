@@ -297,6 +297,7 @@ h2{
 .books{
     /* Puts the book class side by side */
     display: flex;
+    flex-wrap: wrap;
 }
 
 /* Target each book in the books section */
@@ -305,6 +306,7 @@ h2{
     width: 25%;
     /* add 24px padding around the books */
     padding: 24px;
+    
 }
 
 /* Targeting the class which brings in the image */
@@ -329,3 +331,30 @@ h2{
     0.05% */
     transform: scale(1.05);
 }
+
+.book_title{
+    font-size: 20px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.book_title:hover{
+    text-decoration: underline;
+    cursor: no-drop;
+}
+
+.book_rating{
+    margin-bottom: 8px;
+    color: gold;
+    text-align: center;
+}
+
+.book_price{
+    text-align: center;
+}
+
+.book__price--normal{
+    text-decoration: line-through;
+    color: grey;
+}
+
