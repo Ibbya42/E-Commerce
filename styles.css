@@ -374,3 +374,43 @@ h2{
 #explore{
     background-color:  rgba(115, 66, 214, 0.1)
 }
+
+/* CSS FOR Header Section */
+/* FOOTER */
+/* ---------------------------- */
+
+footer{
+    background-color: #242424;
+}
+
+.footer__logo{
+    display: flex ;
+    flex-direction:column;
+    align-items: center;
+}
+
+.footer__logo-img{
+    width: 200px;
+    /* Changes the colour from black to white */
+    filter: grayscale(1) invert(1);
+}
+
+.social__links{
+    text-align: center;
+    padding-top: 16px;
+}
+
+.footer__link{
+    padding: 0 36px;
+}
+
+.footer__link,
+.footer_copyright{
+    color: white;
+    text-decoration: none;
+}
+
+.footer_copyright{
+    text-align: center;
+    padding-top: 20px;
+}
