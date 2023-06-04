@@ -349,21 +349,27 @@ adding space between the title and the rating */
     text-align: center;
 }
 
+/* the title will have an underline and a no-drop cursor when hovered over */
 .book_title:hover{
     text-decoration: underline;
     cursor: no-drop;
 }
 
+/* Align the rating to the center and add spacing between the
+rating and the price tag  */
 .book_rating{
     margin-bottom: 8px;
     color: gold;
     text-align: center;
 }
 
+/* Align price to the center */
 .book_price{
     text-align: center;
 }
 
+/* Wwhen the price is normal (set in class) it will be greyed out
+and will have a line through it */
 .book__price--normal{
     text-decoration: line-through;
     color: grey;
