@@ -17,6 +17,12 @@ body{
     overflow-x: hidden;
 }
 
+html{
+    /* Makes the scroll behaviour or when clicking on links transitions
+    smooth */
+    scroll-behavior: smooth;
+}
+
 img{
     /* All images will be 100% of its parent */
     width: 100%;
