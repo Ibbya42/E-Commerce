@@ -21,16 +21,16 @@
                 <li><a href="#" class="nav__link" >Contacts</a> </li>
                 <li> <a href="#" class="nav__link nav__link--primary" >Books</a> </li>
             </ul>
-        </div>
+        
 
         <!-- Creating the Burger Menu -->
 
-        <button class="btn__menu">
+        <button class="btn__menu" onclick="openMenu()">
             <i class="fas fa-bars"></i>
         </button>
 
         <div class="menu_backdrop">
-            <button class="btn__menu btn__menu--close">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
                 <i class="fas fa-times"></i>
             </button>
             <ul class="menu__links">
@@ -45,6 +45,7 @@
                 </li>
             </ul>
         </div>
+    </div>
 
 
         </nav>

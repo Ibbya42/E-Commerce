@@ -118,6 +118,7 @@ li{
     text-align: center;
     border: none;
     color: purple;
+    display: none;
 }
 
 .menu_backdrop{
@@ -128,9 +129,13 @@ li{
     bottom: 0;
     left: 0;
     z-index: 100;
-    display: flex;
     align-items: center;
     justify-content: center;
+    display: none;
+}
+
+.menu--open .menu_backdrop{
+    display: flex;
 }
 
 .btn__menu--close{
@@ -486,4 +491,18 @@ footer{
 .footer_copyright{
     text-align: center;
     padding-top: 20px;
+}
+
+
+@media (max-width: 550px){
+
+    .nav_links{
+        display: none;
+    }
+
+    .btn__menu{
+        display: block;
+    }
+
+
 }
