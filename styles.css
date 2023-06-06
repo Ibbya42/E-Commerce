@@ -131,11 +131,14 @@ li{
     z-index: 100;
     align-items: center;
     justify-content: center;
-    display: none;
+    transition: all 300ms ease;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .menu--open .menu_backdrop{
-    display: flex;
+    visibility: visible;
+    opacity: 1;
 }
 
 .btn__menu--close{
@@ -145,6 +148,11 @@ li{
     padding: 8px;
     color: white;
 
+}
+
+.menu--open{
+    max-height: 100vh;
+    overflow: hidden;
 }
 
 .menu__list{
@@ -198,7 +206,7 @@ and button */
     /* Will space around the description and image vertically since the 
     flex-direction column is used */
     justify-content: space-around;
-    margin-top: 32px;
+    margin-top: 36px;
 
 }
 
@@ -309,6 +317,7 @@ h2{
 .highlight_wrapper{
     /* Put the elements side by side - The parent class */
     display: flex;
+    flex-wrap: wrap;
 }
 
 .highlight{
@@ -319,7 +328,7 @@ h2{
     /* Align the items centrally */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
     align-items: center;
 }
 
@@ -354,6 +363,7 @@ h2{
 .highlight_subt{
     font-size: 16px;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 /* CSS FOR Header Section */
@@ -493,7 +503,27 @@ footer{
     padding-top: 20px;
 }
 
+@media (max-width: 768px)
+{
+    .header_description{
+        padding: 0 24px;
+    }
+    h1{
+        font-size: 48px;
+    }
 
+    h2{
+        font-size: 20px;
+    }
+
+    .btn{
+        font-size: 18px;
+    }
+
+    .book{
+        width: 50%;
+    }
+}
 @media (max-width: 550px){
 
     .nav_links{
@@ -502,6 +532,11 @@ footer{
 
     .btn__menu{
         display: block;
+    }
+
+    .highlight{
+        width: 100%;
+        margin-bottom: 24px;
     }
 
 
